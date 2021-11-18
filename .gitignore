@@ -1,22 +1,15 @@
 product-api/.idea
-product-api/.jpb
-product-api/.mvn/wrapper
-product-api/.gitignore
 product-api/target/
 product-api/.classpath
 product-api/.project
-product-api/mvnw
-product-api/mvnw.cmd
+product-client/.settings/
 
 shopping-api/.idea
-shopping-api/.jpb
-shopping-api/.mvn/wrapper
 shopping-api/.gitignore
 shopping-api/target/
 shopping-api/.classpath
 shopping-api/.project
-shopping-api/mvnw
-shopping-api/mvnw.cmd
+shopping-client/.settings/
 
 shopping-client/.classpath
 shopping-client/.project
@@ -25,14 +18,11 @@ shopping-client/target/
 shopping-client/.idea
 
 user-api/.idea
-user-api/.jpb
-user-api/.mvn/wrapper
 user-api/.gitignore
 user-api/target/
 user-api/.classpath
 user-api/.project
-user-api/mvnw
-user-api/mvnw.cmd
+user-client/.settings/
 
 
 
