@@ -1,0 +1,31 @@
+package br.com.microservice.book.shoppingapi.converter;
+
+import java.util.stream.Collectors;
+
+import br.com.microservice.book.shoppingapi.dto.ItemDTO;
+import br.com.microservice.book.shoppingapi.dto.ShopDTO;
+import br.com.microservice.book.shoppingapi.model.Item;
+import br.com.microservice.book.shoppingapi.model.Shop;
+
+public class DTOConverter {
+	
+	public static ItemDTO convert(Item item) {
+		ItemDTO itemDto = new ItemDTO();
+		itemDto.setProductIdentifier(item.getProductIdentifier());
+		itemDto.setPrice(item.getPrice());
+		return itemDto;
+	}
+	
+	public static ShopDTO conver(Shop shop) {
+		ShopDTO shopDto = new ShopDTO();
+		shopDto.setUserIdentifier(shop.getUserIdentifier());
+		shopDto.setTotal(shop.getTotal());
+		shopDto.setDate(shop.getDate());
+		shopDto.setItems(shop.getItems()
+				.stream()
+				.map(DTOConverter::convert)
+				.collect(Collectors.toList()));
+		
+	}
+
+}

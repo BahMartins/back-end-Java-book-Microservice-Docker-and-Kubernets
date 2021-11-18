@@ -1,0 +1,20 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: barbara
+    password: 230210
+    url: jdbc:mysql://localhost:3306/book
+    hikari:
+      connectionTimeout: 20000
+      maximumPoolSize: 5
+    flyway:
+      schemas: shopping
+  jpa:
+    properties:
+      hibernate:
+        default_schema: shopping
+        dialect: org.hibernate.dialect.MySQL8Dialect
+

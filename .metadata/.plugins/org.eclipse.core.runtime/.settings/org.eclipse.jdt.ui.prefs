@@ -1,0 +1,8 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="br.com.microservice.book.productapi.dto.CategoryDTO"><rhs name\="br.com.microservice.book.productapi.dto.CategoryDTO"/></lhs><lhs name\="br.com.microservice.book.productapi.dto.ProductDTO"><rhs name\="br.com.microservice.book.productapi.dto.ProductDTO"/></lhs><lhs name\="br.com.microservice.book.userapi.dto.UserDTO"><rhs name\="br.com.microservice.book.userapi.dto.UserDTO"/></lhs><lhs name\="br.com.microservice.book.shoppingapi.dto.ItemDTO"><rhs name\="br.com.microservice.book.shoppingapi.dto.ItemDTO"/></lhs><lhs name\="br.com.microservice.book.shoppingapi.dto.ShopDTO"><rhs name\="br.com.microservice.book.shoppingapi.dto.ShopDTO"/></lhs></history>
+content_assist_number_of_computers=14
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=21
+spelling_locale_initialized=true
+typefilter_migrated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

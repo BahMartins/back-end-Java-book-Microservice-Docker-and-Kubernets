@@ -1,0 +1,14 @@
+package br.com.microservice.book.productapi.converter;
+
+import br.com.microservice.book.productapi.dto.CategoryDTO;
+import br.com.microservice.book.productapi.model.Category;
+
+public class DTOconverter {
+	
+	public static CategoryDTO convert(Category category) {
+		CategoryDTO categoryDto = new CategoryDTO();
+		categoryDto.setId(category.getId());
+		categoryDto.setName(category.getName());
+		return CategoryDTO;
+	}
+}

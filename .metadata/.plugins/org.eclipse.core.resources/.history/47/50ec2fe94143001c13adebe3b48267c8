@@ -1,0 +1,21 @@
+package br.com.microservice.book.productapi.dto;
+
+import br.com.microservice.book.productapi.model.Category;
+import lombok.Data;
+
+import javax.validation.constraints.NotNull;
+
+@Data
+public class CategoryDTO {
+
+    @NotNull
+    private Long id;
+    private String name;
+
+    public static CategoryDTO convert(Category category) {
+        CategoryDTO categoryDto = new CategoryDTO();
+        categoryDto.setId(category.getId());
+        categoryDto.setName(category.getName());
+        return categoryDto;
+    }
+}

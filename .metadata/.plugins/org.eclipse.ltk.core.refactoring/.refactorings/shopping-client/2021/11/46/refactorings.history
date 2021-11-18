@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;br.com.microservice.book.shoppingclient.DTO&apos; to &apos;shopping-client-done-done/src/main/java&apos;&#x0A;- Original project: &apos;shopping-client&apos;&#x0A;- Destination element: &apos;shopping-client-done-done/src/main/java&apos;&#x0A;- Original element: &apos;shopping-client/src/main/java/br.com.microservice.book.shoppingclient.DTO&apos;&#x0A;- Update references to refactored element" description="Move package" destination="=shopping-client-done-done/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;br.com.microservice.book.shoppingclient.DTO" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1636416493271" version="1.0"/>
+</session>

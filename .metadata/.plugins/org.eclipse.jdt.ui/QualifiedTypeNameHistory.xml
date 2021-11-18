@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="br.com.microservice.book.productapi.model.Category"/>
+    <fullyQualifiedTypeName name="br.com.microservice.book.productapi.dto.CategoryDTO"/>
+    <fullyQualifiedTypeName name="br.com.microservice.book.productapi.dto.ProductDTO"/>
+    <fullyQualifiedTypeName name="br.com.microservice.book.productapi.converter.DTOconverter"/>
+    <fullyQualifiedTypeName name="br.com.microservice.book.userapi.model.User"/>
+    <fullyQualifiedTypeName name="br.com.microservice.book.userapi.dto.UserDTO"/>
+    <fullyQualifiedTypeName name="br.com.microservice.book.shoppingapi.model.Item"/>
+    <fullyQualifiedTypeName name="br.com.microservice.book.shoppingapi.dto.ItemDTO"/>
+    <fullyQualifiedTypeName name="br.com.microservice.book.shoppingapi.dto.ShopDTO"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="br.com.microservice.book.shoppingapi.converter.DTOConverter"/>
+    <fullyQualifiedTypeName name="br.com.microservice.book.shoppingclient.DTO.CategoryDTO"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="br.com.microservice.book.productapi.model.Product"/>
+    <fullyQualifiedTypeName name="br.com.microservice.book.shoppingclient.DTO.ProductDTO"/>
+</qualifiedTypeNameHistroy>

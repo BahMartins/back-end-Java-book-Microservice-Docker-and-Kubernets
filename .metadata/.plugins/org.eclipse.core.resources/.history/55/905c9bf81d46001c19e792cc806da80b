@@ -1,0 +1,38 @@
+package br.com.microservice.book.productapi.controller;
+
+import br.com.microservice.book.productapi.model.Product;
+import br.com.microservice.book.productapi.service.ProductService;
+import br.com.microservice.book.shoppingclient.DTO.ProductDTO;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
+import java.util.List;
+
+@RestController
+@RequestMapping("/product")
+public class ProductController {
+
+    @Autowired
+    private ProductService productService;
+
+    @GetMapping
+    public List<ProductDTO> getAllProducts(){
+        return productService.getAll();
+    }
+
+    @GetMapping("/{productIdentifier}")
+    public ProductDTO getById(@PathVariable String productIdentifier){
+        return productService.findByProductIdentifier(productIdentifier);
+    }
+
+    @PostMapping("newProduct")
+    public ProductDTO newProduct(@Valid @RequestBody ProductDTO productDto){
+        return productService.save(productDto);
+    }
+
+    @DeleteMapping("/{id}")
+    public void delete(@PathVariable Long id){
+         productService.delete(id);
+    }
+}

@@ -1,0 +1,25 @@
+package br.com.microservice.book.productapi.converter;
+
+import br.com.microservice.book.productapi.dto.CategoryDTO;
+import br.com.microservice.book.productapi.dto.ProductDTO;
+import br.com.microservice.book.productapi.model.Category;
+import br.com.microservice.book.productapi.model.Product;
+
+public class DTOconverter {
+	
+	public static CategoryDTO convert(Category category) {
+		CategoryDTO categoryDto = new CategoryDTO();
+		categoryDto.setId(category.getId());
+		categoryDto.setName(category.getName());
+		return categoryDto;
+	}
+	
+	public static ProductDTO convert(Product product) {
+		ProductDTO productDto = new ProductDTO();
+		productDto.setName(product.getName());
+		productDto.setPrice(product.getPrice());
+		if(product.getCategory() != null) {
+			productDto.setCategoryDto(DTOconverter.convert(product.getCategory()));
+		}
+	}
+}

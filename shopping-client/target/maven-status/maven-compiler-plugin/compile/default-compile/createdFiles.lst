@@ -1,0 +1,6 @@
+br/com/microservice/book/shoppingclient/DTO/ShopDTO.class
+br/com/microservice/book/shoppingclient/DTO/ItemDTO.class
+br/com/microservice/book/shoppingclient/DTO/ShopReportDTO.class
+br/com/microservice/book/shoppingclient/DTO/CategoryDTO.class
+br/com/microservice/book/shoppingclient/DTO/ProductDTO.class
+br/com/microservice/book/shoppingclient/DTO/UserDTO.class
