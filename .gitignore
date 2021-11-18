@@ -2,14 +2,14 @@ product-api/.idea
 product-api/target/
 product-api/.classpath
 product-api/.project
-product-client/.settings/
+product-api/.settings/
 
 shopping-api/.idea
 shopping-api/.gitignore
 shopping-api/target/
 shopping-api/.classpath
 shopping-api/.project
-shopping-client/.settings/
+shopping-api/.settings/
 
 shopping-client/.classpath
 shopping-client/.project
@@ -22,7 +22,7 @@ user-api/.gitignore
 user-api/target/
 user-api/.classpath
 user-api/.project
-user-client/.settings/
+user-api/.settings/
 
 
 
